@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   margin:0%;
+   font-family: "Poppins", sans-serif;
+   
+}
+/* nav bar */
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    font-weight: 1px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.nav span{
+  margin-left: 50px;
+}
+
+.links a.one {
+    font-size: 24px;   
+    color: black;
+    text-decoration: none;
+}
+.sup{
+  text-decoration: none;
+  border:2px solid black;
+  color:black;
+  font-size: 15px;
+   padding:10px; 
+  border-radius: 5px;
+}
+
+#profile{
+  width:30px;
+  border: none;
+  outline:none;
+}
+
+#profile:hover{
+cursor: pointer;
+box-shadow:2px 2px 2px rgb(208, 198, 198);
+border-radius: 50%;
+}
+
+/* anchor elements */
+.links a{
+margin-right: 80px;
+font-weight: 600;
+text-decoration: none;
+color:black;
+font-size: 15px;
+font-weight: 500;
+margin: 10px;
+}
+
+#search input{
+   border-radius: 6px;
+   border:none;
+   background-color: transparent;
+}
+
+
+#search {
+    display: flex;
+    align-items: center;
+    margin-left: 350px; 
+    gap: 20px;
+    
+    
+}
+#search a{
+text-decoration: none;
+color:black; 
+}
+
+.search{
+  width:150px;
+}
+
+
+.span{
+    margin-left: 400px;
+}
+.img1{
+   margin-top:0;
+   width: 100%;
+   height: 700px;
+   
+}
+.img2{
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+}
+.data1{
+    position: relative;
+    width: 100%;
+}
+.text-box1{
+    position: absolute;
+    bottom: 300px;
+    margin-left: 150px; 
+    color: black;
+z-index: 10;
+
+}
+.text-box1 a{
+text-decoration: none;
+color: black;
+}
+.h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.Ai {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-box1 h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.text-box1 p {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.text-box1 button {
+  font-size: 14px;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.img3{
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.img4 {
+  margin-top: 10px;
+  width: 750px;
+  height: 500px;
+  gap: 10px;
+  flex-grow: 3;
+}
